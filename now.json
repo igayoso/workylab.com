@@ -2,6 +2,7 @@
     "version": 2,
     "alias": ["www.workylab.com", "workylab.com"],
     "builds": [
+      { "src": "mail/contact_me.php", "use": "@now/php"},
       { "src": "**", "use": "@now/static" }
     ]
   }
