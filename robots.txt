@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /mail/contact_me.php
+
+Noindex: /mail/contact_me.php
+
+Allow: /index.hml
