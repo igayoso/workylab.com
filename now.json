@@ -4,5 +4,8 @@
     "builds": [
       { "src": "mail/contact_me.php", "use": "@now/php"},
       { "src": "**", "use": "@now/static" }
-    ]
+    ],
+    "env": {
+      "SENDGRID_API_KEY": "@sengrid-api-key"
+    }
   }
