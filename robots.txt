@@ -5,3 +5,5 @@ Disallow: /mail/contact_me.php
 Noindex: /mail/contact_me.php
 
 Allow: /index.hml
+Allow: /privacy-policy.hml
+Allow: /use-terms.hml
