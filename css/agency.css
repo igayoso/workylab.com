@@ -1,6 +1,6 @@
 /*!
- * Start Bootstrap - Agency v4.0.0-beta (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2017 Start Bootstrap
+ * Start Bootstrap - Agency v4.0.0-beta (https://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 body {
@@ -512,6 +512,40 @@ ul.social-buttons {
     background-color: #222222; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
       background-color: #fed136; }
+
+.cookies-advice {
+  background-color: #222222;
+  bottom: 0;
+  color: #FFF;
+  font-size: 0.75rem;
+  font-weight: 400;
+  padding: 1.1em 1em;
+  position: fixed;
+  width: 100%;
+  z-index: 1000; }
+  .cookies-advice .container {
+    position: relative; }
+
+.close-cookies-advice {
+  cursor: pointer;
+  position: absolute;
+  right: 1em;
+  top: 1.1em; }
+  .close-cookies-advice .icon {
+    height: 12px;
+    position: relative;
+    width: 12px; }
+    .close-cookies-advice .icon::before, .close-cookies-advice .icon::after {
+      content: '';
+      background-color: #fed136;
+      height: 12px;
+      left: 6px;
+      position: absolute;
+      width: 1px; }
+    .close-cookies-advice .icon::before {
+      transform: rotate(45deg); }
+    .close-cookies-advice .icon::after {
+      transform: rotate(-45deg); }
 
 .text-primary {
   color: #fed136 !important; }
