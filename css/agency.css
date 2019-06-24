@@ -632,3 +632,7 @@ ul.social-buttons {
   .btn-xl .badge {
     color: #fed136;
     background-color: white; }
+
+.portfolio-next-item {
+  margin-bottom: 30px;
+  height: 100%; }
