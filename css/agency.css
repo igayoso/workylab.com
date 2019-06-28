@@ -633,6 +633,9 @@ ul.social-buttons {
     color: #fed136;
     background-color: white; }
 
+.navbar-brand .nav-logo {
+  width: 70px; }
+
 .portfolio-item {
   display: flex;
   flex-direction: column;
