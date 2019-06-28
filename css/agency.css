@@ -633,6 +633,19 @@ ul.social-buttons {
     color: #fed136;
     background-color: white; }
 
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+  .portfolio-item .portfolio-caption {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0 !important; }
+    .portfolio-item .portfolio-caption h4 {
+      margin-bottom: 8px !important; }
+
 .portfolio-next-item {
   margin-bottom: 30px; }
   .portfolio-next-item .portfolio-link {
