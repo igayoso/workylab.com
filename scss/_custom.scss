@@ -1,3 +1,27 @@
+.navbar-brand {
+  .nav-logo {
+    width: 70px;
+  }
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .portfolio-caption {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0 !important;
+
+    h4 {
+      margin-bottom: 8px !important;
+    }
+  }
+}
+
 .portfolio-next-item {
   margin-bottom: 30px;
 
