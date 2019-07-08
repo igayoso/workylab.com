@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "alias": ["www.workylab.com", "workylab.com"],
+    "alias": ["workylab.com"],
     "builds": [
       { "src": "mail/contact_me.php", "use": "@now/php", "config": { "maxLambdaSize": "50mb" }},
       { "src": "**", "use": "@now/static" }
