@@ -31,7 +31,7 @@ h6 {
 section {
   padding: 100px 0;
   h2.section-heading {
-    font-size: 40px;
+    font-size: 36px;
     margin-top: 0;
     margin-bottom: 15px;
   }
@@ -42,6 +42,10 @@ section {
     margin-bottom: 75px;
     text-transform: none;
     @include serif-font;
+  }
+  h3.section-info {
+    font-size: 1.5rem;
+    font-weight: 400;
   }
 }
 @media(min-width:768px) {
